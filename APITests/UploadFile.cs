@@ -23,6 +23,7 @@ namespace APITests
             string resp = response.Content.ToString();
             Assert.AreEqual(HttpStatusCode.OK,response.StatusCode,"wrong StatusCode");
             Assert.IsTrue(resp.Contains("\"name\": \"upload.jpg\""), "wrong name");
+            Assert.IsTrue(resp.Contains("id:URSsRWTGmWAAAAAAAAA"), "wrong id");
             Assert.IsTrue(resp.Contains("\"size\": 20"), "wrong size");
             Assert.IsTrue(resp.Contains("b686266b0ed8fbb70285d423e3015f34f6b0a49fbfc2ba5dda89603b07f6def8"), "wrong content hash");
         }
