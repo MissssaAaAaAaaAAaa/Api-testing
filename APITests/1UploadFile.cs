@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace APITests
 {
     [TestFixture]
-    public class UploadFile
+    public class T1UploadFile
     {
         [Test]
         public void UploadFileTest()

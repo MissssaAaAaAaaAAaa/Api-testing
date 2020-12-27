@@ -8,7 +8,7 @@ using System.Collections.Generic;
 namespace APITests
 {
     [TestFixture]
-    public class GetFileMetadata
+    public class T2GetFileMetadata
     {
         [Test]
         public void GetFileMetadataTest()

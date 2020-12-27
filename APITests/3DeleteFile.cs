@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace APITests
 {
     [TestFixture]
-    public class DeleteFile
+    public class T3DeleteFile
     {
         [Test]
         public void DeleteFileTest()
