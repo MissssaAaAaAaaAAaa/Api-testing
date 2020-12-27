@@ -63,10 +63,10 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeleteFile.cs" />
+    <Compile Include="3DeleteFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UploadFile.cs" />
-    <Compile Include="GetFileMetadata.cs" />
+    <Compile Include="1UploadFile.cs" />
+    <Compile Include="2GetFileMetadata.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
